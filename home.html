@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap" rel="stylesheet">
+    <!-- link styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- window icon -->
+    <link rel="icon" href="assets/logo/North-logo-blue.png">
+    <title>Homework 4 | North Cloud</title>
+</head>
+<body>
+
+    <header class="nav">
+        <a href="#" target="_blank"> <img class="nav__logo" src="assets/logo/North-logo-blue.png" alt="North Logo"> </a>
+
+        <nav>
+            <ul class="nav__links">
+                <li> <a href="#/home">home</a> </li>
+                <li> <a href="#/about">about</a> </li>  
+                <li> <a class="nav__login" href="#/login" onclick="loginAlert()">Log In <i class="fas fa-user"></i></a> </li>
+                <li> <a class="nav__logout" href="#/home" onclick="logoutAlert()">Log Out <i class="fas fa-user-slash"></i></a> </li>
+            </ul>
+        </nav>
+    </header>    
+
+
+    <div id="app"> </div>
+
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__logo">
+                <img src="assets/logo/North-logo-blue.png" alt="North Logo Blue">
+            </div>
+            <div class="footer__text">
+                <div class="footer__header">
+                    <h1>Follow Us On Social Media</h1>
+                </div>
+                <div class="footer__social">
+                    <ul class="footer_socialMediaIcons">
+                        <li> <a class="footer__youtube" href="https://www.youtube.com/" target="_blank" rel="noreferrer noopener"> <i class="fab fa-youtube"></i> </a> </li>
+                        <li> <a class="footer__instagram" href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener"> <i class="fab fa-instagram"></i> </a> </li>
+                        <li> <a class="footer__pinterest" href="https://www.pinterest.com/" target="_blank" rel="noreferrer noopener"> <i class="fab fa-pinterest"></i> </a> </li>
+                        <li> <a class="footer__facebook" href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener"> <i class="fab fa-facebook"></i> </a> </li>
+                        
+                    </ul>
+                </div>
+                <div class="footer__desc">
+                    <p>
+                        IUPUI: Designed by Vladimir | School Project | 2021 &copy; All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="app/model.js"></script>
+    <script src="app/app.js"></script>
+
+</body>
+</html>
+
+
+<!-- #4899d4 -->
+
+<!-- 
+    ERROR
+    so, I am getting this weird error where when I load the preview on browser it loads all jacked up without any styling. 
+    Then, you click process file in prepros - it shows the proper styling for a second, and then resets back to pure html
+
+-->
+<!-- <button onclick="myFunction()">Try it</button> -->

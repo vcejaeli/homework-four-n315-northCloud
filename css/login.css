@@ -1,0 +1,96 @@
+.login {
+  background-image: url(../assets/blurry-gradient.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh);
+  width: 100%;
+  padding: 30px 30px 14px 30px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.login__main {
+  margin: 0 auto;
+  min-height: 650px;
+  width: 100%;
+}
+.login__title {
+  margin: 0 auto;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #4899d4;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  line-height: 25px;
+}
+.login__form {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.login__form .inputBoxes {
+  outline: none;
+  width: 600px;
+  color: #fff;
+  border: 3px solid #4899d4;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 15px;
+  background-color: transparent;
+  margin: 25px;
+}
+.login__form .formCta {
+  border: 3px solid #4899d4;
+  border-radius: 20px;
+  background: none;
+  padding: 5px 40px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.login__form .formCta:hover {
+  border-radius: 5px;
+  font-size: 17px;
+}
+.login__form .formCta:active {
+  outline: none;
+}
+
+@media (max-width: 900px) {
+  .login {
+    background: #fff;
+  }
+  .login__main {
+    display: inline-block;
+  }
+  .login__title {
+    line-height: 60px;
+    font-size: 20px;
+  }
+  .login__form .inputBoxes {
+    width: 80%;
+  }
+}

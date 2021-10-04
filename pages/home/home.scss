@@ -1,0 +1,80 @@
+.home {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/cloud-storage-illustration.png);
+    min-height: calc(100vh);
+    max-width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+
+    &__header {
+        text-transform: uppercase;
+        color: #787FF6;
+        max-width: 100%;
+        height: auto;
+        padding: 150px 150px 20px 150px;
+        // background-color: rgba(255, 255, 255, 0.63);
+
+        h1 {
+            font-size: 150px;
+            line-height: 140px;
+        }
+        h2 {
+            color: #4899d4;
+        }
+    }
+    &__cta {
+        padding-left: 150px;
+    }
+    &__button {
+        border: 3px solid #4899d4;
+        border-radius: 20px;
+        // background: none;
+        background-image: linear-gradient(to right, 
+        #7bd5f5,
+        #787FF6,
+        );
+        padding: 10px 45px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 15px;
+        transition: 1s;
+    }
+    &__button:hover {
+        border-radius: 5px;
+        font-size: 20px;
+        background-image: linear-gradient(to right,
+            #4ADEDE,
+        #1CA7EC,
+        #1F2F98
+        );
+    }
+}
+
+
+@media (max-width: 800px) {
+    .home {
+
+        &__header {
+            padding: 50px;
+
+            h1 {
+                line-height: 60px;
+                font-size: 50px;
+            }
+            h2 {
+                font-size: 15px;
+            }
+        }
+        &__cta {
+            padding-left: 50px;
+        }
+        &__button:hover {
+            margin-left: 10px;
+        }
+        
+    }
+}

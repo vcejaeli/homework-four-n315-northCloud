@@ -1,0 +1,61 @@
+.about {
+    background-image: linear-gradient(to right, 
+    #0a3aa3,
+    #787FF6,
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh);
+    max-width: 100%;
+
+    &__img {
+        height: 300px;
+        max-width: 300px;
+        // background-color: rgba(240, 255, 255, 0.514);
+        margin: 0 auto;
+        background-image: url(../assets/cloud-storage-round-white.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__main {
+        max-width: 1000px;
+        min-height: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        // background-color: rgba(0, 255, 255, 0.616);
+
+    }
+    &__headerDesc {
+        color: #fff;
+    }
+    &--h1 {
+        color: #4899d4;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600px;
+    }
+    &--h2 {
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: 400px;
+    }
+    &__desc {
+        line-height: 30px;
+        overflow: auto;
+    }
+}
+
+
+@media (max-width: 1450px) {
+    .about {
+
+        &__main {
+            margin: 0 auto;
+            margin-bottom: 20px;
+            padding: 40px;
+        }
+    }
+}

@@ -1,0 +1,61 @@
+.footer {
+    background: #000000;
+    color: #fff;
+    padding: 30px;
+    // is 1em basically 10px?
+    height: auto;
+    max-width: 100%;
+    margin-top: auto;
+
+    &__content {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    &__logo {
+        height: auto;
+        width: 200px;
+        margin-bottom: 20px;
+
+        img {
+            height: auto;
+            max-width: 80px;
+        }
+    }
+    &__text {
+        font-size: 14px;
+    }
+    &__header {
+        h1 {
+            font-size: 15px;
+            text-transform: capitalize;
+        }
+    }
+    &__social {
+        margin-bottom: 30px;
+    }
+    li {
+        list-style: none;
+        vertical-align: top;
+        display: inline-block;
+        padding: 0 10px 0 10px;
+    }
+    &__youtube {
+        color: #fff;
+    }
+    &__instagram {
+        color: #fff;
+    }
+    &__pinterest {
+        color: #fff;
+    }
+    &__facebook {
+        color: #fff;
+    }
+    &__desc {
+        font-size: 12px;
+        color: #fff;
+    }
+}
